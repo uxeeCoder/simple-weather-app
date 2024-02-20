@@ -1,9 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b1a302;
+}
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fd4242;
+  background-color: #728f09;
+  width: 50%;
+  border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    padding: 20px;
+    box-shadow: 4px 4px 10px #051e05;
+}
+h1 {
+    font-size: 60px;
+  color: #b1a302;
+  text-shadow: 2px 2px 5px #051e05;
+}
+input{
+    text-align: center;
+    padding: 5px;
+
 }
 
 div {
@@ -13,12 +35,27 @@ div {
   justify-content: center;
   margin-top: 20px;
 }
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid #246026;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #051e05;
+  background-color: #246026;
+  color: white;
+  font-size: 20px;
+}
 button {
   margin-top: 20px;
   padding: 10px 20px;
-  border: none;
+  border: 2px solid #246026;
   border-radius: 5px;
-  background-color: #4caf50;
+  box-shadow: 4px 4px 10px #051e05;
+  background-color: #246026;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -29,4 +66,7 @@ form {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+label {
+  box-shadow: 2px 2px 5px #051e05;
 }

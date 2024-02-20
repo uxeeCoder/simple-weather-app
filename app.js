@@ -15,6 +15,7 @@ class Weather {
     // weatherContainer.innerHTML= '';
     weatherContainer.innerHTML += `
             <div>
+            
             <div class="weather-card">
                 <h2>${this.city}</h2>
                 <p>${this.day}</p>
